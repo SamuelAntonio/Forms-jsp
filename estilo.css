@@ -1,0 +1,51 @@
+@CHARSET "ISO-8859-1";
+body{
+margin: 0;
+padding: 0;
+}
+form{
+font-size: 16px;
+background: #CCC;
+max-width: 500px;
+margin: 0 auto;
+padding: 0 10px 10px 10px;
+}
+legend{
+color: #333;
+font-size: 30px;
+}
+
+input { 
+width: 474px;
+padding: 5px;
+background-color: #ffffff; 
+font: 12px verdana, arial, helvetica, sans-serif;
+color:#000000;
+border:1px solid #000000;
+}
+.enviar input {
+background-color: #069;
+height: 40px;
+width: 150px;
+font-weight: bold;
+border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border: 1px solid;
+color: #FFF;
+cursor: pointer;
+}
+
+#estiloSelect{
+   -moz-appearance: none;
+   appearance: none; 
+   background: #eeeeee;  
+   background-position: 218px center;  
+   width: 250px; 
+   height:30px; 
+   border:1px solid #ddd;
+}
+.enviar input{
+background: #078;
+
+}
